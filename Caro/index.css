@@ -1,0 +1,26 @@
+.row{
+    display: flex;
+}
+
+.col{
+    border:1px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.col:hover{
+    cursor: pointer;
+}
+
+.col .X{
+    font-weight: bold;
+    text-align: center;
+    padding:2px;
+
+}
+
+.col .O{
+    font-weight: bold;
+    text-align: center;
+    padding:2px;
+}
